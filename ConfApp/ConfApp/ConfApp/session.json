@@ -1,0 +1,62 @@
+﻿[
+  {
+	 "SessionID" : "1",
+   "TitleName" : "Bring your Big Data to life using JavaScript",
+   "SpeakerName" : "Dan Shultz",
+    "SessionTime" : "2017-06-01"
+  },
+   {
+	 "SessionID" : "2",
+   "TitleName" : "Game Development with the Unity Game Engine",
+   "SpeakerName" : "Mike Geig",
+    "SessionTime" : "2017-06-02"
+  },
+   {
+	 "SessionID" : "3",
+   "TitleName" : "Hacking & Hardening Java Web Applications",
+   "SpeakerName" : "Christopher Judd",
+    "SessionTime" : "2017-06-03"
+  },
+    {
+	 "SessionID" : "4",
+   "TitleName" : "Introduction to Angular 2",
+   "SpeakerName" : "Jonathan DeJong",
+    "SessionTime" : "2017-06-03"
+  },
+    {
+	 "SessionID" : "5",
+   "TitleName" : "Nodebots Workshop",
+   "SpeakerName" : "Brian Sherwin",
+    "SessionTime" : "2017-06-03"
+  },
+    {
+	 "SessionID" : "6",
+   "TitleName" : "Xamarin is Free!  - Now What Do We Do?",
+   "SpeakerName" : "Jason Awbrey",
+    "SessionTime" : "2017-06-03"
+  },
+    {
+	 "SessionID" : "7",
+   "TitleName" : "Creating a Mobile Game",
+   "SpeakerName" : "Kim Arnett",
+    "SessionTime" : "2017-06-03"
+  },
+    {
+	 "SessionID" : "8",
+   "TitleName" : "Apple Watch Development with Swift",
+   "SpeakerName" : "Jeff Kelley",
+    "SessionTime" : "2017-06-03"
+  },
+    {
+	 "SessionID" : "9",
+   "TitleName" : "Behavior Driven Web Application Security",
+   "SpeakerName" : "Aaron Bedra",
+    "SessionTime" : "2017-06-03"
+  },
+    {
+	 "SessionID" : "10",
+   "TitleName" : "Science of Great UI",
+   "SpeakerName" : "Mark Miller",
+    "SessionTime" : "2017-06-03"
+  }
+  ]

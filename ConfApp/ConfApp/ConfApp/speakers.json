@@ -1,0 +1,52 @@
+﻿[
+  {
+	"SpeakerID" : "1",
+    "SpeakerName" : "Dan Shultz",
+    "TwitterLink": "https://twitter.com/dshultz"
+  },
+   {
+	 "SpeakerID" : "2",
+     "SpeakerName" : "Mike Geig",
+    "TwitterLink": "https://twitter.com/mikegeig"
+  },
+   {
+	  "SpeakerID" : "3",  
+      "SpeakerName" : "Christopher Judd",
+      "TwitterLink": "https://twitter.com/javajudd"
+  },
+   {
+	  "SpeakerID" : "4",  
+      "SpeakerName" : "Jonathan DeJong",
+      "TwitterLink": "https://twitter.com/jondejong"
+  },
+   {
+	  "SpeakerID" : "5",  
+      "SpeakerName" : "Brian Sherwin",
+      "TwitterLink": "https://twitter.com/bsherwin"
+  },
+   {
+	  "SpeakerID" : "6",  
+      "SpeakerName" : "Jason Awbrey",
+      "TwitterLink": "https://twitter.com/jkawbrey"
+  },
+   {
+	  "SpeakerID" : "7",  
+      "SpeakerName" : "Kim Arnett",
+      "TwitterLink": "https://twitter.com/kimberlypilbeam"
+  },
+   {
+	  "SpeakerID" : "8",  
+      "SpeakerName" : "Jeff Kelley",
+      "TwitterLink": "https://twitter.com/slaunchaman"
+  },
+   {
+	  "SpeakerID" : "9",  
+      "SpeakerName" : "Aaron Bedra",
+      "TwitterLink": "https://twitter.com/abedra"
+  },
+   {
+	  "SpeakerID" : "10",  
+      "SpeakerName" : "Mark Miller",
+      "TwitterLink": "https://twitter.com/millermark"
+  }
+  ]

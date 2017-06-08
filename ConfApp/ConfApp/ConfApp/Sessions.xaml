@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConfApp.Sessions" Title="Sessions">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="20, 40, 20, 20"
+                    Android="20, 20, 20, 20"
+                    WinPhone="20, 20, 20, 20" />
+    </ContentPage.Padding>
+    <ListView  x:Name="lstView" RowHeight="80">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <!--<ViewCell>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" BackgroundColor="White">
+                        <StackLayout Orientation="Vertical">
+                            <Label Text = "{Binding TitleName}" FontSize="18"  />
+                            <Label Text = "{Binding SpeakerName}"  />
+                        </StackLayout>                   
+                        <Button CommandParameter="{Binding SessionID}" Clicked="Favorites_Clicked" Text="+ Fav"/>
+                        <Button CommandParameter="{Binding SessionID}" Clicked="Favorites_UnClicked" Text="- Fav"/>  
+                    </StackLayout>
+                </ViewCell>-->
+
+               
+                    <ViewCell>
+                    <ViewCell.View>
+                        <!-- Two-column grid -->
+                    <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="50*" />
+                                <ColumnDefinition Width="50*" />
+                            </Grid.ColumnDefinitions>
+                                            
+                            <StackLayout  Grid.Column="0" Orientation="Vertical">
+                                <Label Text = "{Binding TitleName}" FontSize="16"  />
+                                <Label Text = "{Binding SpeakerName}"  />
+                            </StackLayout>
+                                              
+                                <StackLayout Grid.Column="1" Orientation="Horizontal">
+                                <Button CommandParameter="{Binding SessionID}" Clicked="Favorites_Clicked" Text="+ Fav"/>
+                                <Button CommandParameter="{Binding SessionID}" Clicked="Favorites_UnClicked" Text="- Fav"/>
+                               </StackLayout>
+                    </Grid>
+                    </ViewCell.View>
+                 
+                </ViewCell>
+              
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>
